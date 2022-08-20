@@ -1,0 +1,5 @@
+docker build . -t <your node-demo
+
+#create container
+
+docker run -p 49160:8080 -d node-demo
