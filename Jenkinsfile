@@ -7,12 +7,12 @@ pipeline {
   stages {
     stage('Install dependencies') {
       steps {
-        sh 'npm install'
+        bat 'npm install'
       }
     }
     stage('Example') {
       steps {
-        sh 'npm -v'
+        bat 'npm -v'
       }
     }
   }
